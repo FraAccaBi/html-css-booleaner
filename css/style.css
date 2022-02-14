@@ -15,11 +15,23 @@ body{
 
 header{
     background-image: url("../img/pattern.png");
-    background-size: 20%;
+    background-size: 25%;
     background-repeat: repeat-x;
     background-color: #4EA0FF;
-    color: #FFFFFF;   
+    color: #FFFFFF;  
+    height: 5em; 
+    position: relative;
 }
+#page_title{
+    position: absolute;
+    left: 1em;
+}
+#page_title_strong{    
+    font-size: xx-large;
+    font-weight: 900;
+}
+/*header*/
+
 h1{
     font-weight: bold;
     font-size: xx-large;
@@ -40,6 +52,7 @@ thead{
     background-color: #20A9E5;
     color: white;
     text-align: left;
+    
 }
 .text_column{
     width: 50%;
@@ -47,4 +60,26 @@ thead{
 .colored_row{
     background-color: #B1E5F2;
     margin: 0%;
+}
+/*article*/
+
+#title_footer{
+    color: #909090;
+}
+#monitor_img{
+    background-image: url("../img/monitor.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120px;
+    color: white;
+    text-indent: 1em;
+}
+      
+#graph_img{
+    background-image: url("../img/graph.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120px;
+    color: white;
+    text-indent: 1em;
 }
