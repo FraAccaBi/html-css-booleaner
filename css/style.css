@@ -21,6 +21,7 @@ header{
     color: #FFFFFF;  
     height: 5em; 
     position: relative;
+    font-family: 'Roboto Serif', sans-serif;
 }
 #page_title{
     position: absolute;
@@ -28,7 +29,7 @@ header{
 }
 #page_title_strong{    
     font-size: xx-large;
-    font-weight: 900;
+    font-weight: 900;    
 }
 /*header*/
 
@@ -48,6 +49,9 @@ ul{
     margin-left: -1em;
 }
 
+table{
+    border-collapse: collapse;
+}
 thead{
     background-color: #20A9E5;
     color: white;
